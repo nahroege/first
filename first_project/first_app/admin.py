@@ -1,4 +1,3 @@
 from django.contrib import admin
-from app.models import Model1,Model2
-    admin.site.register(Model1)
-    admin.site.register(Model2)
+from .models import User
+admin.site.register(User)
